@@ -1,0 +1,41 @@
+cargo-features = ["edition2021"]
+
+[package]
+edition = "2021"
+name = "job-manager"
+version = "0.1.0"
+
+authors = ["Thomas Villa <thomvil87@gmail.com>"]
+description = ""
+documentation = "https://docs.rs/job-manager/"
+homepage = "https://github.com/thomvil/job-manager-rs"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/thomvil/job-manager-rs"
+
+[lib]
+name = "job_manager"
+path = "src/lib.rs"
+
+[[bin]]
+name = "job_manager_bin"
+path = "src/bin/bin.rs"
+
+[dependencies]
+# chrono = "*"
+# lazy_static = "*"
+# itertools = "*"
+# rand = "*"
+# rayon = "*"
+# regex = "*"
+# serde = { version = "^1", features = ["derive"] }
+# serde_json = "*"
+
+# [dev-dependencies]
+# claim = "*"
+
+# [profile.release]
+# lto = true
+# codegen-units = 1
+# opt-level = 3
+# panic = 'abort'
