@@ -16,6 +16,9 @@
 )]
 #![forbid(unsafe_code)]
 
+pub mod model;
+pub(crate) mod prelude;
+
 #[cfg(test)]
 mod tests {
     #[test]

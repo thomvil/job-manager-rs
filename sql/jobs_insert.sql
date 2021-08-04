@@ -1,0 +1,1 @@
+INSERT INTO jobs (load, difficulty, persistant) VALUES ($1, $2, $3);
